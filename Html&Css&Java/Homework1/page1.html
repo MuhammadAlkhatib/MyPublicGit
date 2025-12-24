@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إعلان توظيف: مصمم جرافيك</title>
+
+    <!-- اضافة طابع مميز للصفحة -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+        }
+        h1, h2 {
+            color: #7939a3;
+        }
+        form {
+            margin: 10px 0;
+        }
+        label {
+            display: block;
+            margin: 5px 0 5px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px;
+        }
+        button {
+            background-color: #7939a3;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        nav {
+            background-color: #7939a3;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <!-- قائمة التنقل -->
+    <nav>
+        <ul>
+            <li><a href="page1.html">التسجيل</a></li>
+            <li><a href="page2.html">اشعار التسجيل</a></li>
+            <li><a href="page3.html">المسجلون</a></li>
+        </ul>
+    </nav>
+
+    <!-- محتوى الصفحة الأولى -->
+    <h1>إعلان توظيف: مصمم جرافيك</h1>
+
+    <!-- القسم الأول -->
+    <div>
+        <h2>تعريف بالوظيفة</h2>
+        <p>نبحث عن مصمم جرافيك مبدع وذو خبرة للانضمام إلى فريقنا. المهام تشمل تطوير وتصميم جرافيك.</p>
+        <img src="c:\Users\NITRO5\Desktop\Homework1\download.jpeg" alt="صورة تعريفية" width="300">
+        <br>
+        <a href="https://www.youtube.com/watch?v=e25n3SSJSYY&ysclid=m7xo0dp6jk666549806" target="_blank">شاهد الفيديو التعريفي</a>
+    </div>
+
+    <!-- القسم الثاني -->
+    <div>
+        <h2>المهام المطلوبة</h2>
+        <ol>
+            <li>تصميم الشعارات والهويات البصرية.</li>
+            <li>إنشاء المواد التسويقية مثل البروشورات والملصقات.</li>
+            <li>تصميم واجهات المستخدم للتطبيقات والمواقع.</li>
+            <li>العمل مع فريق التسويق لتحقيق الأهداف المرجوة.</li>
+            <li>استخدام أدوات التصميم الحديثة مثل Adobe Creative Suite.</li>
+        </ol>
+    </div>
+
+    <!-- القسم الثالث -->
+    <div>
+        <h2>الخبرات المطلوبة</h2>
+        <ul>
+            <li>خبرة في استخدام برامج التصميم مثل Photoshop وIllustrator.</li>
+            <li>فهم جيد لمبادئ التصميم الجرافيكي.</li>
+            <li>القدرة على العمل تحت الضغط وتلبية المواعيد النهائية.</li>
+            <li>خبرة في تصميم واجهات المستخدم (UI/UX) تعتبر ميزة إضافية.</li>
+        </ul>
+    </div>
+
+    <!-- القسم الرابع -->
+    <div>
+        <h2>تقديم الطلب</h2>
+      
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">الإيميل:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">العمر:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="phone">رقم الهاتف:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="gender">الجنس:</label>
+            <select id="gender" name="gender">
+                <option value="male">ذكر</option>
+                <option value="female">أنثى</option>
+            </select>
+
+            
+            <label>المهارات:</label>
+            <div class="skills-container">
+                <label>
+                    <input type="checkbox" name="skills" value="Photoshop"> Photoshop
+                </label>
+                <label>
+                    <input type="checkbox" name="skills" value="illustrator"> Adobe Illustrator
+                </label>
+                <label>
+                    <input type="checkbox" name="skills" value="indesign"> Adobe InDesign
+                </label>
+                <label>
+                    <input type="checkbox" name="skills" value="ui-ux"> تصميم واجهات المستخدم (UI/UX)
+                </label>
+                <label>
+                    <input type="checkbox" name="skills" value="branding"> تصميم الهويات البصرية
+                </label>
+            </div>
+
+            <label for="cv">السيرة الذاتية:</label>
+            <input type="file" id="cv" name="cv" required>
+
+            <label for="certificates">ملف الأعمال السابقة:</label>
+            <input type="file" id="certificates" name="certificates">
+
+     
+            <div class="refreshButton" onclick="location.reload()">
+                <button type="reset">إعادة تعيين</button>
+            </div>
+
+
+            <a href="page2.html">
+                <button type="submit">إرسال</button>
+            </a>
+                
+    
+        </form>
+    </div>
+
+    <!-- القسم الخامس -->
+    <div>
+        <a href="#top">العودة للأعلى</a>
+    </div>
+
+</body>
+</html>

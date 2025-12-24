@@ -1,0 +1,58 @@
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* الجسم */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.7;
+    background-color: #177e1c;
+    color: #e0e0e0;
+    padding: 20px;
+    direction: rtl;
+}
+
+/* الترويسة */
+header {
+    background: #1e1e1e;
+    color: #ffffff;
+    text-align: right;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 0;
+    border-bottom: 10px solid #874caf;
+}
+/* الإطار */
+header img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #874caf;
+    object-fit: cover;
+}
+
+/* الأقسام  */
+section {
+    background: #1e1e1e;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-left: 10px solid #874caf;
+}
+
+
+/* تجاوبية للهاتف */
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+    
+    header, section {
+        border-radius: 0;
+    }
+    
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+}
